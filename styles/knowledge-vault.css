@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+
+}
+
+.logo img {
+    width: 139px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+.nav-text span {
+    margin: 0 12px;
+    color: #333333;
+}
