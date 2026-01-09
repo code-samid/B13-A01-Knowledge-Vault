@@ -8,6 +8,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    padding: 60px 20px;
 }
 
 
@@ -33,4 +34,99 @@
 .nav-text span {
     margin: 0 12px;
     color: #333333;
+}
+
+
+.banner {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 30, 50, 0.75);
+
+    
+}
+
+.banner-content {
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    padding-top: 0 20px;
+}
+
+.banner h1 span {
+    color: #30b868;
+}
+
+/*.badge {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 16px;
+}*/
+
+.badge {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #30b868;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.banner h1 span {
+    
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px; 
+}
+
+/*.banner p {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Inter;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    
+}*/
+
+.btn {
+    padding: 14px 22px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn.primary {
+    background: #4caf50;
+    color: white;
+}
+
+.btn.secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.banner-content p {
+    max-width: 680px;   
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 1.6;
+    color: #FFFFFF;
 }
