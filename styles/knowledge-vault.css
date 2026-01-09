@@ -6,8 +6,8 @@
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1600px;
+    margin: 0 auto;
     padding: 60px 20px;
 }
 
@@ -68,15 +68,7 @@
     color: #30b868;
 }
 
-/*.badge {
-  display: inline-block;
-  background: #e8f5e9;
-  color: #2e7d32;
-  padding: 6px 12px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-bottom: 16px;
-}*/
+
 
 .badge {
     display: inline-block;
@@ -95,14 +87,6 @@
     margin-bottom: 20px; 
 }
 
-/*.banner p {
-    display: inline-block;
-    font-size: 18px;
-    font-family: Inter;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-    
-}*/
 
 .btn {
     padding: 14px 22px;
@@ -140,9 +124,21 @@
     margin-top: 40px;
 }
 
-.card {
+.cards {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-top: 48px;
 
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px 14px;
+    background-color: #F95555;
 }
 
 .card {
@@ -157,17 +153,86 @@
 
 
 .solution {
-  display: flex;
-  gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 80px;
+  padding: 120px 0;
 }
 
-.solution img {
-  width: 100%;
+.solution-image img {
+  max-width: 420px;
+  display: block;
+  margin: auto;
+}
+
+.solution-text h2 {
+  font-size: 32px;
+  margin: 12px 0 16px;
+}
+
+.solution-text ul {
+  margin-top: 24px;
+  list-style: none;
+}
+
+.solution-text li {
+  margin-bottom: 12px;
+  color: #374151;
 }
 
 .cta {
-  background: #f7f7f4;
+  max-width: 760px;
+  margin: 120px auto 140px;
+  padding: 48px 24px;
+  background: #f7f6f2;
+  border-radius: 16px;
   text-align: center;
-  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b2545;
+  margin-bottom: 8px;
+}
+
+.cta p {
+  font-size: 15px;
+  color: #5f6c7b;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cta span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #7a869a;
+}
+
+.footer {
+  background: #071b2f;
+  padding: 80px 24px 40px;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
 }
