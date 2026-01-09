@@ -130,3 +130,44 @@
     line-height: 1.6;
     color: #FFFFFF;
 }
+
+
+
+.notes h2, .subheading {
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.card {
+    display: grid;
+
+}
+
+.card {
+  
+    background: #FFFFFF;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba (0,0,0,0.05);
+}
+
+
+
+.solution {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.solution img {
+  width: 100%;
+}
+
+.cta {
+  background: #f7f7f4;
+  text-align: center;
+  padding: 80px 20px;
+}
